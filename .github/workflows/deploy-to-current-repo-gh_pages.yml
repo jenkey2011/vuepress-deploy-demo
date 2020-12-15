@@ -8,7 +8,7 @@ jobs:
       uses: actions/checkout@master
 
     - name: Build and Deploy
-      uses: jenkey2011/vuepress-deploy@1.0.1
+      uses: jenkey2011/vuepress-deploy@dev
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: jenkey2011/vuepress-deploy-demo

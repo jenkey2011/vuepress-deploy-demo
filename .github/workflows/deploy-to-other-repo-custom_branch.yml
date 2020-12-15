@@ -8,10 +8,11 @@ jobs:
       uses: actions/checkout@master
 
     - name: Build and Deploy
-      uses: jenkey2011/vuepress-deploy@master
+      uses: jenkey2011/vuepress-deploy@dev
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: jenkey2011/vuepress-deploy-demo-target
         TARGET_BRANCH: custom_branch
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: blog/.vuepress/dist/
+        COMMIT_MESSAGE:  Auto deploy by the Vuepress-deploy

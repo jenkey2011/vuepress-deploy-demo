@@ -36,7 +36,7 @@ jobs:
         BUILD_DIR: blog/.vuepress/dist/
 ```
 
-The action will auto deploy the vuepress project when you push your code. Enjoy!!!
+The action will auto deploy the vuepress project when you push your code. Enjoy!!!!
 
 > Step-by-Step Guide , please see the [Step-by-Step](#step-by-step-guide)
 

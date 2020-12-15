@@ -15,4 +15,3 @@ jobs:
         TARGET_BRANCH: gh_pages
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: blog/.vuepress/dist/
-        COMMIT_MESSAGE: deploy from action!

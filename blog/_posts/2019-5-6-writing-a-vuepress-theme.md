@@ -183,6 +183,6 @@ export default ({
   router, // the router instance for the app
   siteData // site metadata
 }) => {
-  // ...apply enhancements to the app
+  // ...apply enhancements to the app~
 }
 ```

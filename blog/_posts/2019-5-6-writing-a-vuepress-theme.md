@@ -136,7 +136,7 @@ This is the value of `$site` of this very website:
   "base": "/",
   "pages": [
     {
-      "lastUpdated": 1524027677000,
+      "lastUpdated": 15240276770010,
       "path": "/",
       "title": "VuePress",
       "frontmatter": {}
